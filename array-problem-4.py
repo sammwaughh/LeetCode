@@ -26,3 +26,6 @@ def containsDuplicate2(nums):
     return False
 
 print(containsDuplicate2([]))
+
+## This is quadratic
+## Need to sort in nlogn time then check in linear time
